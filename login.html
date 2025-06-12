@@ -1,77 +1,370 @@
+
+Chat
+
+
+
+has context menu
+has context menuYou were mentioned.SMS chat.Unread message.Last message:Group chat.Meeting Chat.Chat.You're starting a new conversation..This chat is muted.You can't send messages because you are not a member of the chat.
+
+
+Chat
+
+Shared
+
+Has context menu
+
+
+
+
+
+do it together by Yu Bo Nan, has an attachment.
+Yu Bo Nan
+2:12 PM
+
+
+do it together
+
+
+Blank resolution.docx
+
+are u about fast fasion? by Kim Taeyang
+2:12 PM
+Kim Taeyang
+
+are u about fast fasion?
+
+idk how to do by Kim Taeyang
+2:12 PM
+Kim Taeyang
+
+idk how to do
+
+very stupkd no by Yu Bo Nan
+Yu Bo Nan
+2:12 PM
+
+
+very stupkd no
+
+about economic growth by Yu Bo Nan
+Yu Bo Nan
+2:13 PM
+
+about economic growth
+
+should i use gpt?   by Kim Taeyang
+2:13 PM
+Kim Taeyang
+
+should i use gpt?
+
+ 
+
+yes by Yu Bo Nan
+Yu Bo Nan
+2:14 PM
+
+
+yes
+
+did u kick me out by Kim Taeyang
+2:18 PM
+Kim Taeyang
+
+did u kick me out
+
+bro by Kim Taeyang
+2:18 PM
+Kim Taeyang
+
+bro
+
+what group tho by Kim Taeyang
+2:18 PM
+Kim Taeyang
+
+what group tho
+
+who u working w by Kim Taeyang
+2:18 PM
+Kim Taeyang
+
+who u working w
+
+Crying by Kim Taeyang
+2:18 PM
+Kim Taeyang
+
+😢
+
+economic growth in developing country by Yu Bo Nan
+Yu Bo Nan
+2:18 PM
+
+
+economic growth in developing country
+
+you? by Yu Bo Nan
+Yu Bo Nan
+2:18 PM
+
+you?
+
+oh shit by Kim Taeyang
+2:18 PM
+Kim Taeyang
+
+oh shit
+
+clothing by Kim Taeyang
+2:19 PM
+Kim Taeyang
+
+clothing
+
+i need to work with by Kim Taeyang
+2:19 PM
+Kim Taeyang
+
+i need to work with
+
+who is doing fast fasion? by Kim Taeyang
+2:19 PM
+Kim Taeyang
+
+who is doing fast fasion?
+
+we need to get into groups right by Kim Taeyang
+2:19 PM
+Kim Taeyang
+
+we need to get into groups right
+
+  Goal Number What It's About Goal 1 No pov... by Kim Taeyang
+2:23 PM
+Kim Taeyang
+
+ 
+
+Goal Number	What It's About
+Goal 1	No poverty — end extreme poverty
+Goal 3	Good health and well-being
+Goal 4	Quality education
+Goal 5	Gender equality
+Goal 8	Decent work and economic growth
+Goal 12	Responsible consumption and production
+Goal 13	Climate action
+ 
+
+i think u need to know this by Kim Taeyang
+2:23 PM
+Kim Taeyang
+
+i think u need to know this
+
+noah is kimchongun by Yu Bo Nan
+Yu Bo Nan
+3:14 PM
+
+
+noah is kimchongun
+
+Last read
+<!DOCTYPE html> <html lang="en"> <head> <me... by Yu Bo Nan
+Yu Bo Nan
+4:07 PM
+
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Login Page</title>
-  <style>
+<meta charset="UTF-8">
+<title>LearnCS.io - Educational Simulation</title>
+<style>
     body {
-      font-family: Arial;
-      background-color: #f5f5f5;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
+      flex-direction: column;
     }
 
-    .login-box {
-      background: white;
-      padding: 30px;
-      border-radius: 10px;
+ 
+
+    .banner {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #ffcccc;
+      color: darkred;
+      font-weight: bold;
+      padding: 10px;
+      text-align: center;
+      border-bottom: 2px solid red;
+    }
+
+ 
+
+    .container {
+      background: #fff;
+      width: 400px;
+      padding: 40px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      text-align: center;
     }
 
-    input {
-      display: block;
-      width: 100%;
-      margin-bottom: 10px;
-      padding: 10px;
+ 
+
+    h1 {
+      font-weight: 400;
     }
 
-    button {
+ 
+
+    .google-btn {
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 12px;
+      width: 100%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      font-size: 16px;
+    }
+
+ 
+
+    .google-btn img {
+      height: 20px;
+      margin-right: 10px;
+    }
+
+ 
+
+    .login-form {
+      display: none;
+      margin-top: 20px;
+      text-align: left;
+    }
+
+ 
+
+    .login-form input {
       width: 100%;
       padding: 10px;
-      background-color: #007bff;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+    }
+
+ 
+
+    .login-form button {
+      margin-top: 15px;
+      padding: 10px;
+      width: 100%;
+      background: #1a73e8;
       color: white;
       border: none;
-      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
     }
 
-    #message {
-      margin-top: 10px;
-      color: red;
+ 
+
+    .footer-note {
+      margin-top: 25px;
+      font-size: 13px;
+      color: #666;
     }
-  </style>
+
+ 
+
+    .message {
+      margin-top: 15px;
+      color: red;
+      font-weight: bold;
+      display: none;
+    }
+</style>
 </head>
 <body>
-  <div class="login-box">
-    <h2>Login</h2>
-    <input type="email" id="email" placeholder="Email" required />
-    <input type="password" id="password" placeholder="Password" required />
-    <button onclick="login()">Login</button>
-    <p id="message"></p>
-  </div>
+
+ 
+
+  <div class="banner">
+    ⚠️ Simulation only. Do NOT enter real credentials. For education & cybersecurity awareness.
+</div>
+
+ 
+
+  <div class="container">
+<h1>LearnCS.io</h1>
+<p>Sign in to access computer science training modules</p>
+
+ 
+
+    <button class="google-btn" onclick="document.getElementById('loginForm').style.display = 'block';">
+<img src="https://www.google.com/favicon.ico" alt="Google Icon">
+      Sign in with Google
+</button>
+
+ 
+
+    <div id="loginForm" class="login-form">
+<label>Email or phone</label>
+<input id="email" type="text" placeholder="you@example.com" required>
+<label>Password</label>
+<input id="password" type="password" placeholder="Enter your Google password" required>
+<button onclick="saveData()">Login</button>
+<div id="failMsg" class="message">Login failed. Please try again.</div>
+</div>
+
+ 
+
+    <div class="footer-note">
+      This is a demo phishing simulation for classroom use. Nothing is sent or stored online.
+</div>
+</div>
+
+ 
 
   <script>
-    // Demo login info
-    const correctEmail = "user@example.com";
-    const correctPassword = "mypassword";
+    function saveData() {
+      const email = document.getElementById('email').value;
+      const password = document.getElementById('password').value;
 
-    function login() {
-      const email = document.getElementById("email").value;
-      const password = document.getElementById("password").value;
-      const message = document.getElementById("message");
+ 
 
-      if (email === correctEmail && password === correctPassword) {
-        message.style.color = "green";
-        message.innerText = "Login successful! Redirecting...";
-        // Simulate redirect
-        setTimeout(() => {
-          window.location.href = "welcome.html";
-        }, 2000);
-      } else {
-        message.style.color = "red";
-        message.innerText = "Incorrect email or password.";
-      }
+      const blob = new Blob(
+        [`Email: ${email}\nPassword: ${password}`],
+        { type: "text/plain;charset=utf-8" }
+      );
+
+ 
+
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = "data.txt";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+
+ 
+
+      document.getElementById('failMsg').style.display = 'block';
     }
-  </script>
+</script>
+
+ 
+
 </body>
 </html>
+
+
+
